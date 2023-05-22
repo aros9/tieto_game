@@ -3,11 +3,11 @@
 #include <vector>
 #include <iostream>
 
-MapData::MapData()
+MapData::MapData(std::string mapFile)
 {
 
     std::fstream myFile;
-    myFile.open("Input/mapa.txt", std::ios::in);
+    myFile.open("Input/" + mapFile, std::ios::in);
 
     if(!myFile)
     {

@@ -1,5 +1,6 @@
 #pragma once
 #include "Matrix.hpp"
+#include <string>
 
 class MapData
 {
@@ -8,6 +9,6 @@ class MapData
         Matrix<char, int> m_data;
 
     public:
-        MapData();
+        MapData(std::string mapFile);
         
 };

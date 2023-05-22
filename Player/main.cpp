@@ -9,6 +9,7 @@ int main(int argc, char** argv)
   const std::string mapFileName = argv[1];
   const std::string statusFileName = argv[2];
   const std::string ordersFileName = argv[3];
+
   
   int timeLimit = 5;
 
@@ -17,7 +18,7 @@ int main(int argc, char** argv)
     timeLimit = std::atoi(argv[4]);
   }
 
-  MapData map;
+  MapData map(mapFileName);
 
   return 1;
 }
