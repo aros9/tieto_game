@@ -4,11 +4,11 @@
 
 class MapData
 {
-
-    private:
-        Matrix<char, int> m_data;
-
-    public:
-        MapData(std::string mapFile);
+  public:
+    
+    MapData(std::string mapFile);
         
+  private:
+
+    Matrix<char, int> m_data;
 };

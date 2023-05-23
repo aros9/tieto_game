@@ -24,8 +24,6 @@ MapData::MapData(std::string mapFile)
             lines.push_back(line);
         }
 
-        // Close the file
-        myFile.close();
 
         // Determine the number of rows and columns
         int numRows = lines.size();

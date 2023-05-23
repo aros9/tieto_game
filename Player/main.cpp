@@ -18,7 +18,14 @@ int main(int argc, char** argv)
     timeLimit = std::atoi(argv[4]);
   }
 
+  // Create data container for map
   MapData map(mapFileName);
+
+  // Create data container for status
+  // StatusData status(statusFileName);
+
+  // Choose an approach
+  // play(map, status, ordersFileName);
 
   return 1;
 }
