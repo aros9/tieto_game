@@ -1,4 +1,4 @@
-#include "Status.hpp"
+#include "../inc/Status.hpp"
 
 Status::Status(std::string statusFile)
 {

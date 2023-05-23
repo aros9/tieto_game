@@ -1,4 +1,4 @@
-#include "MapData.hpp"
+#include "../inc/MapData.hpp"
 #include <fstream>
 #include <vector>
 #include <iostream>

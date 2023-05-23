@@ -6,10 +6,10 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 set(SOURCES
-    main.cpp
-    MapData.cpp
-    Matrix.cpp
-    Status.cpp
+    src/main.cpp
+    src/MapData.cpp
+    src/Matrix.cpp
+    src/Status.cpp
    )
 
 add_executable(player ${SOURCES})

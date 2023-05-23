@@ -6,13 +6,13 @@
 
 typedef struct Unit
 {
-  char m_affiliation;
-  char m_type;
   int m_id;
   int m_x;
   int m_y;
   int m_durability;
   char m_produced; // base parameter
+  char m_affiliation;
+  char m_type;
 }Unit;
 
 typedef struct unitInfo

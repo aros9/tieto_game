@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "MapData.hpp"
+#include "../inc/MapData.hpp"
 
 int main(int argc, char** argv)
 {
