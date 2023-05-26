@@ -10,6 +10,8 @@ set(SOURCES
     src/MapData.cpp
     src/Matrix.cpp
     src/Status.cpp
+    src/Action.cpp
+    src/Player.cpp
    )
 
 add_executable(player ${SOURCES})

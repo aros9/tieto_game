@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include "../inc/MapData.hpp"
+#include "../inc/Player.hpp"
 
 int main(int argc, char** argv)
 {
@@ -22,7 +23,9 @@ int main(int argc, char** argv)
   MapData map(mapFileName);
 
   // Create data container for status
-  // StatusData status(statusFileName);
+  Status status(statusFileName);
+
+  Player newPlayer(map, status);
 
   // Choose an approach
   // play(map, status, ordersFileName);

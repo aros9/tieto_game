@@ -12,7 +12,7 @@ Status::Status(std::string statusFile)
   }
   else
   {
-
+    // read file
 
   }
 }
@@ -62,4 +62,5 @@ unitInfo getInfo(char unit)
       return newUnit;
     }break;
   }
+  return unitInfo(0, 0, 0, 0, 0);
 }

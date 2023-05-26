@@ -31,8 +31,9 @@ class Status
 {
   public:
 
+    Status();
     Status(std::string statusFile);
-    unitInfo getInfo(char unit);
+    unitInfo getInfo(const char unit);
     
   private:
   

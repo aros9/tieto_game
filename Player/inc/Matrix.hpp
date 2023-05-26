@@ -66,7 +66,7 @@ class Matrix
       }
     }
 
-    Matrix(const Matrix& other);
+    Matrix(const Matrix& other) {};
     Matrix& operator=(const Matrix& other);
 
     Matrix(Matrix&& other);
